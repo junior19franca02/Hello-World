@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.topo{
+	background-color: #65a524;
+	height: 120px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.foto1 img{
+	padding-left: 150px;
+}
+nav{
+	display: block;
+	margin-top: -75px;
+	padding-left: 800px;
+}
+nav li{
+	display: inline-block;
+}
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	background-color: #7acc63;
+	padding: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	border-bottom: 2px solid #000;
+	transition-duration: 0.5s;
+}
+nav ul li:hover a{
+	color: #ffcc33;
+}
+.noticia{
+	border-top: 1px solid #000;
+	margin-top: 35px;
+}
+.noticia p{
+	line-height: 100px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #666;
+}
+.foto2 img{
+	float: left;
+	margin-left: 170px;
+	border: 1px solid rgba(0,0,0,.4);
+	box-shadow: 4px 4px 10px #666;
+}
+.foto3 img{
+	float: right;
+	margin-right: 270px;
+}
+.foto4 img{
+	float: right;
+	margin-right: 270px;
+	margin-top: 40px;
+}
+.foto5 a{
+	color: #fff;
+	text-decoration: none;
+}
+.foto5 a:hover{
+	color: #65a524;
+}
+.foto5 img{
+	padding-left: 150px;
+	padding-top: 8px;
+}
+.foto6 img{
+	padding-top: 10px;
+	float: right;
+	margin-right: 20px;
+}
+.rodape{
+	background-color: #737373;
+	clear: both;
+	margin-top: 300px;
+	height: 150px;
+	border-bottom: 10px solid #7fc216;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.rodape2{
+	background-color: #737373;
+	clear: both;
+	height: 105px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
